@@ -1,0 +1,30 @@
+# PDFs are ignored so that textbooks, notes or other third-party PDFs (the most
+# common accident) can't be committed by mistake. The official statute PDFs below
+# are explicitly allowed. To add another official PDF, add a "!" line for it.
+*.pdf
+!2004 İcra ve İflas Kanunu.pdf
+!4054 Rekabetin Korunması Hakkında Kanun.pdf
+!492 Harçlar Kanunu.pdf
+!6100 Hukuk Muhakemeleri Kanunu.pdf
+!6502 Tüketicinin Korunması Hakkında Kanun.pdf
+!7036 İş Mahkemeleri Kanunu.pdf
+!Rekabet Kurulundan İzin Alınması Gereken Birleşme ve Devralmalar Hakkında Tebliğ (Tebliğ No 2010-4).pdf
+!Ticaret Sicili Yönetmeliği.pdf
+!Vergi Usul Kanunu Genel Tebliği Sıra No 509.pdf
+
+# Environment files and local secrets
+.env
+.env.*
+*.local
+
+# Local caches, converted text and editor/OS clutter
+.cache/
+__pycache__/
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/settings.local.json
